@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A34C11151E9FA0E800AA39DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C11141E9FA0E800AA39DC /* AppDelegate.swift */; };
+		A34C11181E9FA0E800AA39DC /* Locatapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A34C11161E9FA0E800AA39DC /* Locatapp.xcdatamodeld */; };
+		A34C111A1E9FA0E800AA39DC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C11191E9FA0E800AA39DC /* MasterViewController.swift */; };
+		A34C111C1E9FA0E800AA39DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C111B1E9FA0E800AA39DC /* DetailViewController.swift */; };
+		A34C111F1E9FA0E800AA39DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C111D1E9FA0E800AA39DC /* Main.storyboard */; };
+		A34C11211E9FA0E800AA39DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34C11201E9FA0E800AA39DC /* Assets.xcassets */; };
+		A34C11241E9FA0E800AA39DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C11221E9FA0E800AA39DC /* LaunchScreen.storyboard */; };
+		A34C112F1E9FA0E900AA39DC /* LocatappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C112E1E9FA0E900AA39DC /* LocatappTests.swift */; };
+		A34C113A1E9FA0E900AA39DC /* LocatappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C11391E9FA0E900AA39DC /* LocatappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A34C112B1E9FA0E900AA39DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34C11091E9FA0E800AA39DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34C11101E9FA0E800AA39DC;
+			remoteInfo = Locatapp;
+		};
+		A34C11361E9FA0E900AA39DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34C11091E9FA0E800AA39DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34C11101E9FA0E800AA39DC;
+			remoteInfo = Locatapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A34C11111E9FA0E800AA39DC /* Locatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C11141E9FA0E800AA39DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A34C11171E9FA0E800AA39DC /* Locatapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Locatapp.xcdatamodel; sourceTree = "<group>"; };
+		A34C11191E9FA0E800AA39DC /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A34C111B1E9FA0E800AA39DC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A34C111E1E9FA0E800AA39DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A34C11201E9FA0E800AA39DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34C11231E9FA0E800AA39DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A34C11251E9FA0E800AA39DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34C112A1E9FA0E900AA39DC /* LocatappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocatappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C112E1E9FA0E900AA39DC /* LocatappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatappTests.swift; sourceTree = "<group>"; };
+		A34C11301E9FA0E900AA39DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34C11351E9FA0E900AA39DC /* LocatappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocatappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C11391E9FA0E900AA39DC /* LocatappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatappUITests.swift; sourceTree = "<group>"; };
+		A34C113B1E9FA0E900AA39DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A34C110E1E9FA0E800AA39DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C11271E9FA0E800AA39DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C11321E9FA0E900AA39DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A34C11081E9FA0E800AA39DC = {
+			isa = PBXGroup;
+			children = (
+				A34C11131E9FA0E800AA39DC /* Locatapp */,
+				A34C112D1E9FA0E900AA39DC /* LocatappTests */,
+				A34C11381E9FA0E900AA39DC /* LocatappUITests */,
+				A34C11121E9FA0E800AA39DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A34C11121E9FA0E800AA39DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34C11111E9FA0E800AA39DC /* Locatapp.app */,
+				A34C112A1E9FA0E900AA39DC /* LocatappTests.xctest */,
+				A34C11351E9FA0E900AA39DC /* LocatappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34C11131E9FA0E800AA39DC /* Locatapp */ = {
+			isa = PBXGroup;
+			children = (
+				A34C11141E9FA0E800AA39DC /* AppDelegate.swift */,
+				A34C11191E9FA0E800AA39DC /* MasterViewController.swift */,
+				A34C111B1E9FA0E800AA39DC /* DetailViewController.swift */,
+				A34C111D1E9FA0E800AA39DC /* Main.storyboard */,
+				A34C11201E9FA0E800AA39DC /* Assets.xcassets */,
+				A34C11221E9FA0E800AA39DC /* LaunchScreen.storyboard */,
+				A34C11251E9FA0E800AA39DC /* Info.plist */,
+				A34C11161E9FA0E800AA39DC /* Locatapp.xcdatamodeld */,
+			);
+			path = Locatapp;
+			sourceTree = "<group>";
+		};
+		A34C112D1E9FA0E900AA39DC /* LocatappTests */ = {
+			isa = PBXGroup;
+			children = (
+				A34C112E1E9FA0E900AA39DC /* LocatappTests.swift */,
+				A34C11301E9FA0E900AA39DC /* Info.plist */,
+			);
+			path = LocatappTests;
+			sourceTree = "<group>";
+		};
+		A34C11381E9FA0E900AA39DC /* LocatappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A34C11391E9FA0E900AA39DC /* LocatappUITests.swift */,
+				A34C113B1E9FA0E900AA39DC /* Info.plist */,
+			);
+			path = LocatappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A34C11101E9FA0E800AA39DC /* Locatapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C113E1E9FA0E900AA39DC /* Build configuration list for PBXNativeTarget "Locatapp" */;
+			buildPhases = (
+				A34C110D1E9FA0E800AA39DC /* Sources */,
+				A34C110E1E9FA0E800AA39DC /* Frameworks */,
+				A34C110F1E9FA0E800AA39DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Locatapp;
+			productName = Locatapp;
+			productReference = A34C11111E9FA0E800AA39DC /* Locatapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A34C11291E9FA0E800AA39DC /* LocatappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C11411E9FA0E900AA39DC /* Build configuration list for PBXNativeTarget "LocatappTests" */;
+			buildPhases = (
+				A34C11261E9FA0E800AA39DC /* Sources */,
+				A34C11271E9FA0E800AA39DC /* Frameworks */,
+				A34C11281E9FA0E800AA39DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34C112C1E9FA0E900AA39DC /* PBXTargetDependency */,
+			);
+			name = LocatappTests;
+			productName = LocatappTests;
+			productReference = A34C112A1E9FA0E900AA39DC /* LocatappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A34C11341E9FA0E900AA39DC /* LocatappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C11441E9FA0E900AA39DC /* Build configuration list for PBXNativeTarget "LocatappUITests" */;
+			buildPhases = (
+				A34C11311E9FA0E900AA39DC /* Sources */,
+				A34C11321E9FA0E900AA39DC /* Frameworks */,
+				A34C11331E9FA0E900AA39DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34C11371E9FA0E900AA39DC /* PBXTargetDependency */,
+			);
+			name = LocatappUITests;
+			productName = LocatappUITests;
+			productReference = A34C11351E9FA0E900AA39DC /* LocatappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A34C11091E9FA0E800AA39DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "RAYMOND LUGO";
+				TargetAttributes = {
+					A34C11101E9FA0E800AA39DC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3Z8L7DJUJL;
+						ProvisioningStyle = Automatic;
+					};
+					A34C11291E9FA0E800AA39DC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3Z8L7DJUJL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A34C11101E9FA0E800AA39DC;
+					};
+					A34C11341E9FA0E900AA39DC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3Z8L7DJUJL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A34C11101E9FA0E800AA39DC;
+					};
+				};
+			};
+			buildConfigurationList = A34C110C1E9FA0E800AA39DC /* Build configuration list for PBXProject "Locatapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A34C11081E9FA0E800AA39DC;
+			productRefGroup = A34C11121E9FA0E800AA39DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A34C11101E9FA0E800AA39DC /* Locatapp */,
+				A34C11291E9FA0E800AA39DC /* LocatappTests */,
+				A34C11341E9FA0E900AA39DC /* LocatappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A34C110F1E9FA0E800AA39DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C11241E9FA0E800AA39DC /* LaunchScreen.storyboard in Resources */,
+				A34C11211E9FA0E800AA39DC /* Assets.xcassets in Resources */,
+				A34C111F1E9FA0E800AA39DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C11281E9FA0E800AA39DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C11331E9FA0E900AA39DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A34C110D1E9FA0E800AA39DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C11151E9FA0E800AA39DC /* AppDelegate.swift in Sources */,
+				A34C11181E9FA0E800AA39DC /* Locatapp.xcdatamodeld in Sources */,
+				A34C111A1E9FA0E800AA39DC /* MasterViewController.swift in Sources */,
+				A34C111C1E9FA0E800AA39DC /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C11261E9FA0E800AA39DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C112F1E9FA0E900AA39DC /* LocatappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C11311E9FA0E900AA39DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C113A1E9FA0E900AA39DC /* LocatappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A34C112C1E9FA0E900AA39DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34C11101E9FA0E800AA39DC /* Locatapp */;
+			targetProxy = A34C112B1E9FA0E900AA39DC /* PBXContainerItemProxy */;
+		};
+		A34C11371E9FA0E900AA39DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34C11101E9FA0E800AA39DC /* Locatapp */;
+			targetProxy = A34C11361E9FA0E900AA39DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A34C111D1E9FA0E800AA39DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34C111E1E9FA0E800AA39DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A34C11221E9FA0E800AA39DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34C11231E9FA0E800AA39DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A34C113C1E9FA0E900AA39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A34C113D1E9FA0E900AA39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34C113F1E9FA0E900AA39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Z8L7DJUJL;
+				INFOPLIST_FILE = Locatapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.americalogic.Locatapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A34C11401E9FA0E900AA39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Z8L7DJUJL;
+				INFOPLIST_FILE = Locatapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.americalogic.Locatapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A34C11421E9FA0E900AA39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3Z8L7DJUJL;
+				INFOPLIST_FILE = LocatappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.americalogic.LocatappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locatapp.app/Locatapp";
+			};
+			name = Debug;
+		};
+		A34C11431E9FA0E900AA39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3Z8L7DJUJL;
+				INFOPLIST_FILE = LocatappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.americalogic.LocatappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locatapp.app/Locatapp";
+			};
+			name = Release;
+		};
+		A34C11451E9FA0E900AA39DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3Z8L7DJUJL;
+				INFOPLIST_FILE = LocatappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.americalogic.LocatappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Locatapp;
+			};
+			name = Debug;
+		};
+		A34C11461E9FA0E900AA39DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3Z8L7DJUJL;
+				INFOPLIST_FILE = LocatappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.americalogic.LocatappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Locatapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A34C110C1E9FA0E800AA39DC /* Build configuration list for PBXProject "Locatapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C113C1E9FA0E900AA39DC /* Debug */,
+				A34C113D1E9FA0E900AA39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34C113E1E9FA0E900AA39DC /* Build configuration list for PBXNativeTarget "Locatapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C113F1E9FA0E900AA39DC /* Debug */,
+				A34C11401E9FA0E900AA39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A34C11411E9FA0E900AA39DC /* Build configuration list for PBXNativeTarget "LocatappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C11421E9FA0E900AA39DC /* Debug */,
+				A34C11431E9FA0E900AA39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A34C11441E9FA0E900AA39DC /* Build configuration list for PBXNativeTarget "LocatappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C11451E9FA0E900AA39DC /* Debug */,
+				A34C11461E9FA0E900AA39DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A34C11161E9FA0E800AA39DC /* Locatapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A34C11171E9FA0E800AA39DC /* Locatapp.xcdatamodel */,
+			);
+			currentVersion = A34C11171E9FA0E800AA39DC /* Locatapp.xcdatamodel */;
+			path = Locatapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A34C11091E9FA0E800AA39DC /* Project object */;
+}
